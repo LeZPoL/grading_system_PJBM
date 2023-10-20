@@ -1,3 +1,5 @@
-<p>dashboard works!</p>
-<button class="btn btn-primary">CLICK ME!</button>
-<input type="text" class="form-control">
+<app-card *ngFor="let item of cardData"
+    title = "{{item.title}}"
+    value = "{{item.value}}"
+    content = "{{item.content}}"
+></app-card>

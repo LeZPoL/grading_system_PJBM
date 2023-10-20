@@ -1,1 +1,75 @@
-<p>registration works!</p>
+<form class="row g-3">
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label">Email</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="col-md-6">
+      <label for="inputPassword4" class="form-label">Password</label>
+      <input type="password" class="form-control" id="inputPassword4">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress" class="form-label">Address</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    </div>
+    <div class="col-md-6">
+      <label for="inputCity" class="form-label">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="col-md-4">
+      <label for="inputProvince" class="form-label">Province</label>
+      <select id="inputProvince" class="form-select">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="col-md-2">
+      <label for="inputZip" class="form-label">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck">
+          Check me out
+        </label>
+      </div>
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Sign in</button>
+    </div>
+
+    <div class="sign-up">
+      <h1>Sign Up</h1>
+
+      <div class="logo">
+          <a href=""><i class="bx bxl-facebook" id="fb"></i></a>
+          <a href=""><i class="bx bxl-twitter" id="twt"></i></a>
+          <a href=""><i class="bx bxl-google" id="golg"></i></a>
+      </div>
+
+      <p>or use your email address:</p>
+
+      <form action="in.html">
+          <div class="inline">
+              <input type="text" id="name" placeholder="Name" required autocomplete="off"/> <br>
+              <input type="text" id="username" placeholder="Username" required autocomplete="off"/> <br>
+              <input type="text" id="email" placeholder="Email Address" required autocomplete="off"/> <br>
+              <input type="text" id="pass" placeholder="Password" required autocomplete="off"/> <br>
+              <input type="text" id="con-pass" placeholder="Confirm Password" required autocomplete="off"/> <br>            
+              <label>
+                  <input type="checkbox" id="check" required>I agree to the <a href="">Terms of Service</a>  and <a href="">Privacy Policy</a> 
+              </label>
+          </div>
+      
+          <div class="submit">
+              <input type="submit" id="btn" value="create account"/>
+          </div>
+      </form>
+
+
+      <div class="in">
+          <p class="signin">Already have an account? <a href="in.html">Sign In</a></p>
+      </div>
+
+  </div>   
+  </form>

@@ -1,41 +1,15 @@
 <!DOCTYPE html>
 <html>
     <link rel="stylesheet" type="text/scss" href="sidenav.component.scss">
-<head>
-    <style>
-        .sidenav {
-            height: 100%;
-            width: 180px;
-            position: fixed;
-            z-index: 1;
-            top: 0;
-            left: 0;
-            background-color: #d17000;
-            padding-top: 53px;
-        }
-
-        .sidenav a {
-            padding: 16px;
-            text-decoration: none;
-            font-size: 18px;
-            color: white;
-            display: block;
-        }
-
-        .sidenav a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-    </style>
-</head>
 <body>
-
-<div class="sidenav">
-    <a href="#Shop">Shop</a>
-    <a href="#Registration">Registration</a>
-    <a href="#Dashboard">Dashboard</a>
-    <a href="#Shipping">Shipping</a>
-</div>
-
+    <div id="mySidenav" class="sidenav">
+        <a class="active" href="./manage/dashboard" id="dashboard">Dashboard</a>
+        
+        <a href="./manage/students" id="students">Students</a>
+   
+        <a href="./manage/teachers" id="teachers">Teachers</a>
+   
+        <a href="./manage/login" id="login">Login</a>
+      </div>
 </body>
 </html>
